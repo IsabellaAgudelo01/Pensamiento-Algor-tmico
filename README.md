@@ -1,1 +1,1 @@
-# Pensamiento-Algor-tmico
+# Pensamiento Algoítmico
