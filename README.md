@@ -294,3 +294,6 @@ En el codigo podemos evidenciar comentarios que explican el funcionamiento de ca
  2. Ingreso de valores no numéricos:
     problema: Si el usuario ingresa un valor que no sea un numero el programa fallara.
     solucion: El codigo maneja una excepcion para que cuando se usen letras en lugar de numeros el programa envie un mensaje aclarando que no es un valor valido.
+
+# Contribuciones
+Este programa al ser de codigo abierto permite que cualquier persona pueda contribuir a este proyecto. 
