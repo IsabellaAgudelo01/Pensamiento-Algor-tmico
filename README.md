@@ -25,4 +25,4 @@ Para ejecutar el programa en C++ se siguen los siguientes pasos:
  6.  Abre la cartpeta y crea un archivo "Nombre.c++", asegúrate de tener el ".c++"
 
 # Guía de uso
-
+ 1. Abrir Visual Studio Code y crear dos archivos, cada uno con su respectiva terminación (".py" y ".c++")
