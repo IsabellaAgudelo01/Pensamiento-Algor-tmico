@@ -7,6 +7,23 @@ Isabella Agudelo y Camilo Alfonso Rodríguez
 # Introducción
 Este proyecto tieme como objetivo documentar el entendimiento de los estudiantes en el uso de los programas vistos en clase tales como C++ y Python. Se proponé una situación con el propósito de que los estudiantes construyan un código utilizando herramientas como variables, condicionales, bucles y otros conceptos aprendidos en clase. El informe busca documentar los códigos, explicar su funcionamiento y los erroers posibles que se puedan dar al resolver el problema. 
 
+# _INFORME_
+# Problema
+En Apex Legends, el daño de la zona es un mecanismo clave que obliga a los jugadores a moverse
+hacia áreas seguras a medida que el círculo se cierra. El daño de la zona aumenta progresivamente
+dependiendo del círculo en el que te encuentres. Tu tarea es calcular el daño total que recibirá un
+jugador si permanece en la zona durante un tiempo determinado.
+Dado el círculo actual y el tiempo t (en segundos) que un jugador pasa en la zona, debes calcular el
+daño total recibido. El daño por segundo depende del círculo de la siguiente manera:
+
+ 1. Círculo 1: 2 de daño por segundo.
+ 2. Círculo 2: 5 de daño por segundo.
+ 3. Círculo 3: 10 de daño por segundo.
+ 4. Círculo 4 o mayor: 25 de daño por segundo.
+
+# Requisitos Funcionales y No Funcionales
+
+
 
 
 
