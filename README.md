@@ -79,12 +79,8 @@ Con lo que hemos visto en clase no podemos llegar aún a una solución alternati
 
 # Código en Python
 ```python
-print("Escriba el círculo en el que se encuentra")
-c = int(input())
-
-print("Escriba el tiempo en el que estuvo en el círculo")
-t = float(input())
-
+c= int(input("Escriba el círculo en el que se encuentra: "))
+t=float(input("Escriba el tiempo en el que estuvo en el círculo: "))
 if t >= 0:
     if c == 1:
         print(f"Daño total recibido: {2 * t}")
