@@ -197,7 +197,7 @@ return 0;
 1. Abre la terminal 
 2. Verifica si python está instalado usando el comando
 ```
-	python3 –versión
+python3 –versión
 ```
 4. Si no está instalado usa los comandos
  ```
@@ -206,25 +206,36 @@ sudo apt install python3 -y  # Debian/Ubuntu
 sudo pacman -S python         # Arch Linux
 ```
 3. Crea una carpeta donde vayas a guardar tus proyectos y luego crea un archivo “nombre.py” y asegúrate de que tenga la extensión “.py” usando los siguientes comandos
-	.mkdir ~/proyectos_python && cd ~/proyectos_python
-   	.nano nombre.py
-4. Escribe el código necesario.
-5. Ejecuta el programa con el comando
-	.python3 nombre.py
+```
+mkdir ~/proyectos_python && cd ~/proyectos_python
+nano nombre.py
+```
+5. Escribe el código necesario.
+6. Ejecuta el programa con el comando
+```
+python3 nombre.py
+```
 
 # Instalación y ejecución del programa (MAC)
 1. Abre la terminal 
 2. Verifica si python está instalado usando el comando
-	python3 –versión
-3. Si no está instalado usa el comando
-	brew install python
+```
+python3 –versión
+```
+4. Si no está instalado usa el comando
+```	
+brew install python
+```
 3. Crea una carpeta donde vayas a guardar tus proyectos y luego crea un archivo “nombre.py” y asegúrate de que tenga la extensión “.py” usando los siguientes comando
+```
 mkdir ~/proyectos_python && cd ~/proyectos_python
 nano nombre.py
+```
 4. Escribe el código necesario.
 5. Ejecuta el programa con el comando
-	python3 nombre.py
-
+```
+python3 nombre.py
+```
 
 # C++
 Para ejecutar el programa en C++ se siguen los siguientes pasos:
