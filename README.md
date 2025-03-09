@@ -33,6 +33,24 @@ daño total recibido. El daño por segundo depende del círculo de la siguiente 
   2. Claro y consciso
   3. Utilizar correctamente los lenguajes de C++ y Python con lo que se ha enseñado en clase
 
+# Casos de Uso Principales
+Este programa puede ser utilizado como base para otros programas que necesiten de dos variables y calcular algún efecto recibido de acuerdo a los datos leídos
+ 1. Juegos con diferentes mecánicas que buscan calcular daño en base al tiempo o tiempo que permanezca en determinada zona
+ 2. Cálculo de exposición a sustancias peligrosas, un programa que dicte que tan dañino es estar en contacto con ciertos químicos por un determinado tiempo (sus variables podrían ser PH y tiempo)
+ 3. Consumo de energía, un programa que calcule el consumo de recursos y la contaminación que se está dando (sus variables podrían ser concentración de contaminantes y tiempo de su exposición)
+
+# Identificación de entradas, procesos y salidas esperadas
+ 1. Entrada de datos: número del círculo (c)
+                      tiempo que pasó en el círculo (t)
+ 2. Procesamiento de datos: Se define que si el cículo es 1 entonces se hará la operación t*2
+                            Se define que si el cículo es 2 entonces se hará la operación t*5
+                            Se define que si el círculo es 3 entonces se hará la operación t*10
+                            Se define que si el círculo es 4 o más entonces se hará la operación t*25
+                            Se define que si el círculo es 0 entonces se escribirá "usted no ha recibido daño"
+3. Salidas: Se imprime un mensaje indicando cuál fue el daño recibido
+            Se imprime un mensaje indicando que no recibió daño
+
+# Justificación de la solución    
 
 
 
