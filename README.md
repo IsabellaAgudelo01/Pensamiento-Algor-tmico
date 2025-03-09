@@ -288,12 +288,12 @@ En el codigo podemos evidenciar comentarios que explican el funcionamiento de ca
 
 # Errores comunes
  1. Ingreso de valores negativos:
-    problema: Si el usuario ingresa un número negativo en el tiempo o círculo, el programa no calcula el daño correctamente.
-    solucion: El programa envia un mensaje en el que aclara que no se permiten usar valores negativos.
+    - problema: Si el usuario ingresa un número negativo en el tiempo o círculo, el programa no calcula el daño correctamente.
+    - solucion: El programa envia un mensaje en el que aclara que no se permiten usar valores negativos.
     
  2. Ingreso de valores no numéricos:
-    problema: Si el usuario ingresa un valor que no sea un numero el programa fallara.
-    solucion: El codigo maneja una excepcion para que cuando se usen letras en lugar de numeros el programa envie un mensaje aclarando que no es un valor valido.
+    - problema: Si el usuario ingresa un valor que no sea un numero el programa fallara.
+    - solucion: El codigo maneja una excepcion para que cuando se usen letras en lugar de numeros el programa envie un mensaje aclarando que no es un valor valido.
 
 # Contribuciones
 Este programa al ser de codigo abierto permite que cualquier persona pueda contribuir a este proyecto. 
