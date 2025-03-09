@@ -100,7 +100,7 @@ try: #Se usa para manejar excepciones, en este caso la de si se ingresan valores
         else:
             print("Por favor ingrese el círculo en el que se encuentra como un entero positivo") #Para casos en el que el círculo no sea coherente o no esté en el formato requerido
     else:
-        print("Por favor ingrese el tiempo como un real positivo") #Para casos en el que el tiempo no sea coherente o no esté en el formate requerido 
+        print("Por favor ingrese el tiempo como un real positivo") #Para casos en el que el tiempo no sea coherente o no esté en el formato requerido 
 except ValueError:
     print("Por favor ingrese valores numéricos válidos") #Para casos en los que el valor ingresado no sea un número
 
