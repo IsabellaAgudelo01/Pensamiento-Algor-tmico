@@ -101,6 +101,7 @@ if t >= 0:
 else:
     print("Por favor ingrese el tiempo como un real positivo") #Para casos en el que el tiempo no sea coherente o no esté en el formate requerido 
 
+```
 
 # Código C++
 ```cpp
