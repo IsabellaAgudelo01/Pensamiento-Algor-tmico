@@ -26,3 +26,6 @@ Para ejecutar el programa en C++ se siguen los siguientes pasos:
 
 # Guía de uso
  1. Abrir Visual Studio Code y crear dos archivos, cada uno con su respectiva terminación (".py" y ".c++")
+ 2. Ejecutamos el código
+ 3. Se le pedirá al usuario el círculo en el que se encuentra (solo se aceptarán números enteros mayores a 0)
+ 4. Se le pedirá al usuario el tiempo que pasó en el círculo (solo se aceptarán floats)
