@@ -78,7 +78,8 @@ Con lo que hemos visto en clase no podemos llegar aún a una solución alternati
 ![sin_titulo](https://github.com/user-attachments/assets/c0411292-2e0f-408e-b9df-afaaa21d73a3)
 
 # Código en Python
-[Uploading Apex.py…print("Escriba el círculo en el que se encuentra")
+´´cpp 
+print("Escriba el círculo en el que se encuentra")
 c = int(input())
 
 print("Escriba el tiempo en el que estuvo en el círculo")
@@ -98,51 +99,13 @@ if t >= 0:
     else:
         print("Por favor ingrese el círculo en el que se encuentra como un entero positivo")
 else:
-    print("Por favor ingrese el tiempo como un real positivo")]()
+    print("Por favor ingrese el tiempo como un real positivo")
+
 
 
 # Código C++
 
-[Uploading apex.c++…]()#include <iostream>
 
-int c;
-float t;
-int main (){
-    std::cout << "Escriba el círculo en el que se encuentra" << std::endl;
-    std::cin >> c;
-    std::cout << "Escriba el tiempo en el que estuvo en el círculo" << std::endl;
-    std::cin >> t;
-   if (t>=0){
-          if(c==1){
-         float a = 2*t;
-         std::cout << "Daño total recibido: " << a << std::endl;
-     } else {
-         if(c==2){
-             float b = 5*t;
-             std::cout << "Daño total recibido: " << b << std::endl;
-         } else {
-             if(c==3){
-                 float d = 10*t;
-                 std::cout << "Daño total recibido: " << d << std::endl;
-             } else {
-                 if(c>=4){
-                     float e = 25*t;
-                     std::cout << "Daño total recibido: " << e << std::endl;
-                 } else{
-                     if (c==0){
-                         std::cout << "Usted no ha recibido daño";
-                     } else
-                     std::cout << "Por favor ingrese el círculo en el que se encuentra como un entero positivo";
-                 }
-             }
-         }
-     }
-   }else{
-       std::cout << "Por favor ingrese el tiempo como un real positivo";
-   }
-
-return 0;
-}
 
 
 
