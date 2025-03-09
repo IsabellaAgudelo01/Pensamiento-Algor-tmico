@@ -23,13 +23,13 @@ daño total recibido. El daño por segundo depende del círculo de la siguiente 
  4. Círculo 4 o mayor: 25 de daño por segundo.
 
 # <h2>Requisitos Funcionales y No Funcionales</h2>
- # _Funcionales_
+ # <h3>_Funcionales_</h3>
   1. Definir variables del círculo en el que se encuentra 
   2. Definir variables del tiempo que se quedó en el círculo
   3. Calcular el daño recibido dependiendo del circulo en el que se encuentre y el tiempo que duró en él
   4. Validar que el usuario haya ingresado números enteros mayores a 0 para el círculo
   5. Validar que el usuario haya ingresado números decimales mayores o iguales a 0
- # _No funcionales_
+ # <h3>_No Funcionales_</h3>
   1. No permitir la entrada de otros carácteres fuera de los anteriores mencionados
   2. Claro y consciso
   3. Utilizar correctamente los lenguajes de C++ y Python con lo que se ha enseñado en clase
@@ -56,7 +56,7 @@ Este programa puede ser utilizado como base para otros programas que necesiten d
 
 # <h2>Justificación de la solución</h2>    
 Para resolver este problema, se le pide al ususario ingresar dos datos; el círculo en el que se encuentra y el tiempo que ha pasado en el círculo. Dependiendo de la situación del usuario se calculará la cantidad del daño recibido. Utilizamos el condicional if para cubrir cada uno de los casos posibles
-# _Estrategia_
+# <h2>_Estrategia_</h2>
 El programa sigue los siguientes pasos:
  1. le pide al usuario que ingrese el círculo en el que se encuentra
  2. le pide al usuario que ingrese el tiempo que se quedó en el círculo
@@ -68,7 +68,7 @@ El programa sigue los siguientes pasos:
      - círculo 4 o más: t * 25
 Concluimos que esta es la forma más efectiva de hacer el algorítmo puesto que cubre todas las posibilidades de daño que pueda recibir el usuario, así también evitando ampliar el código de manera innecesaria (por ejemplo hacer más bloques de la cuenta al no querer usar un condicional)
 
-# _Soluciones alternativas_
+# <h2>_Soluciones alternativas_</h2>
 Con lo que hemos visto en clase no podemos llegar aún a una solución alternativa
 
 
