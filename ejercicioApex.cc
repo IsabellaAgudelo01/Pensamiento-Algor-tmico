@@ -7,7 +7,7 @@ int main (){
     std::cout << "Escriba el círculo en el que se encuentra" << std::endl;
     std::cin >> c;
     //Se le pide al usuario que ingrese el tiempo en el que estuvo en el círculo
-    std::cout << "Escriba el tiempo en el que estuvo en el círculo" << std::endl;
+    std::cout << "Escriba el tiempo en segundos en el que estuvo en el círculo" << std::endl;
     std::cin >> t;
     //Se evalúa que el tiempo ingresado ssea coherente
    if (t>=0){
