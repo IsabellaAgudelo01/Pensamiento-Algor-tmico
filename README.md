@@ -9,7 +9,7 @@ Este proyecto tiene como objetivo documentar el entendimiento de los estudiantes
 
 # <h1>INFORME</h1> 
 
-# <h2>Problema</h2>
+<h2>Problema</h2>
 En Apex Legends, el daño de la zona es un mecanismo clave que obliga a los jugadores a moverse
 hacia áreas seguras a medida que el círculo se cierra. El daño de la zona aumenta progresivamente
 dependiendo del círculo en el que te encuentres. Tu tarea es calcular el daño total que recibirá un
@@ -31,7 +31,7 @@ daño total recibido. El daño por segundo depende del círculo de la siguiente 
   4. Validar que el usuario haya ingresado números enteros mayores a 0 para el círculo
   5. Validar que el usuario haya ingresado números decimales mayores o iguales a 0
      
- # <h3>_No Funcionales_</h3>
+# <h3>_No Funcionales_</h3>
   1. No permitir la entrada de otros carácteres fuera de los anteriores mencionados
   2. Claro y consciso
   3. Utilizar correctamente los lenguajes de C++ y Python con lo que se ha enseñado en clase
