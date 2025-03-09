@@ -196,11 +196,15 @@ return 0;
 # Instalación y ejecución del programa (Linux)
 1. Abre la terminal 
 2. Verifica si python está instalado usando el comando
-	.python3 –versión
-3. Si no está instalado usa los comandos
-	.sudo apt install python3 -y  # Debian/Ubuntu
-   	.sudo dnf install python3      # Fedora
-	.sudo pacman -S python         # Arch Linux
+```
+	python3 –versión
+```
+4. Si no está instalado usa los comandos
+ ```
+sudo apt install python3 -y  # Debian/Ubuntu
+ sudo dnf install python3      # Fedora
+sudo pacman -S python         # Arch Linux
+```
 3. Crea una carpeta donde vayas a guardar tus proyectos y luego crea un archivo “nombre.py” y asegúrate de que tenga la extensión “.py” usando los siguientes comandos
 	.mkdir ~/proyectos_python && cd ~/proyectos_python
    	.nano nombre.py
