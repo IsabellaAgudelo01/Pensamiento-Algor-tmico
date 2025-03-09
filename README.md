@@ -93,14 +93,18 @@ Con lo que hemos visto en clase no podemos llegar aún a una solución alternati
 
 # <h1>DOCUMENTACIÓN</h1>
 
+# <h1>PYTHON</h2>
 
-# Instalación Python 
-Para ejecutar el programa en python se siguen los siguientes pasos: 
- 1. Descarga python en su página oficial o en Microsoft Store
- 2. Descarga Visual Studio Code
- 3. Ya con Visual Studio descargado se instala la extensión de python
- 4. Crea una carpeta en tus archivos donde vayas a guardar tus códigos
- 5. Abre la cartpeta y crea un archivo "Nombre.py", asegúrate de tener el ".py"
+# <h2>Instalación y ejecución del programa (Windows)</h2>
+1. Descarga python en su página oficial o en Microsoft Store, preferiblemente la versión más actual.
+2. Descarga Visual Studio Code.
+3. Ya con Visual Studio descargado, en el área de extensiones, se instalan las necesarias para python.
+4. Crea una carpeta en tus archivos donde vayas a guardar tus códigos.
+5. Abre VS Code, selecciona "Abrir carpeta" y elige la carpeta creada.
+6. Crea un archivo "nombre.py" y asegúrate de tener la extensión ".py".
+7. Escribe el código necesario.
+8. Al momento de terminar, debes ir a la parte superior de la pantalla en el apartado de “Run” o “Ejecutar” en español, paso seguido, se elige la opción de “Start Debugging” o “Iniciar depurado”, o de manera más simplificada puedes usar el atajo de la tecla “F5” que inicia la ejecución del programa.
+8. En la parte inferior de visual studio code se mostrará un apartado llamado “Terminal” en el cual se deben ingresar los datos solicitados para la ejecución del código. 
 
 # Instalación C++
 Para ejecutar el programa en C++ se siguen los siguientes pasos:
