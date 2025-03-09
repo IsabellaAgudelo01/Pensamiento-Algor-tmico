@@ -40,15 +40,18 @@ Este programa puede ser utilizado como base para otros programas que necesiten d
  3. Consumo de energía, un programa que calcule el consumo de recursos y la contaminación que se está dando (sus variables podrían ser concentración de contaminantes y tiempo de su exposición)
 
 # Identificación de entradas, procesos y salidas esperadas
- 1. Entrada de datos: número del círculo (c)
-                      tiempo que pasó en el círculo (t)
- 2. Procesamiento de datos: Se define que si el cículo es 1 entonces se hará la operación t * 2
-                            Se define que si el cículo es 2 entonces se hará la operación t * 5
-                            Se define que si el círculo es 3 entonces se hará la operación t * 10
-                            Se define que si el círculo es 4 o más entonces se hará la operación t * 25
-                            Se define que si el círculo es 0 entonces se escribirá "usted no ha recibido daño"
-3. Salidas: Se imprime un mensaje indicando cuál fue el daño recibido
-            Se imprime un mensaje indicando que no recibió daño
+ 1. Entrada de datos:
+    número del círculo (c)
+    tiempo que pasó en el círculo (t)
+ 2. Procesamiento de datos:
+    Se define que si el cículo es 1 entonces se hará la operación t * 2
+    Se define que si el cículo es 2 entonces se hará la operación t * 5
+     Se define que si el círculo es 3 entonces se hará la operación t * 10
+    Se define que si el círculo es 4 o más entonces se hará la operación t * 25
+     Se define que si el círculo es 0 entonces se escribirá "usted no ha recibido daño"
+3. Salidas:
+   Se imprime un mensaje indicando cuál fue el daño recibido
+   Se imprime un mensaje indicando que no recibió daño
 
 # Justificación de la solución    
 
