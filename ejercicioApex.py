@@ -2,7 +2,7 @@ try: #Se usa para manejar excepciones, en este caso la de si se ingresan valores
 #Se le pide al usuario que ingrese el numero del circulo en el que está
     c= int(input("Escriba el círculo en el que se encuentra: "))
 #Se le pide al usuario que ingrese el tiempo en el que estuvo en el círculo
-    t=float(input("Escriba el tiempo en el que estuvo en el círculo: "))
+    t=float(input("Escriba el tiempo en segundos en el que estuvo en el círculo: "))
 #Se verifica el tipo de valor que se ingreso para el tiempo
     if t >= 0:
     #Se evalua en que circulo está el usuario y se calcula el daño recibido
