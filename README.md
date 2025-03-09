@@ -23,6 +23,7 @@ daño total recibido. El daño por segundo depende del círculo de la siguiente 
  4. Círculo 4 o mayor: 25 de daño por segundo.
 
 <h2>Requisitos Funcionales y No Funcionales </h2>
+
 # <h3>_Funcionales_</h3>
   1. Definir variables del círculo en el que se encuentra 
   2. Definir variables del tiempo que se quedó en el círculo
