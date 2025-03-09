@@ -83,7 +83,7 @@ try: #Se usa para manejar excepciones, en este caso la de si se ingresan valores
 #Se le pide al usuario que ingrese el numero del circulo en el que está
     c= int(input("Escriba el círculo en el que se encuentra: "))
 #Se le pide al usuario que ingrese el tiempo en el que estuvo en el círculo
-    t=float(input("Escriba el tiempo en el que estuvo en el círculo: "))
+    t=float(input("Escriba el tiempo en segundos en el que estuvo en el círculo: "))
 #Se verifica el tipo de valor que se ingreso para el tiempo
     if t >= 0:
     #Se evalua en que circulo está el usuario y se calcula el daño recibido
@@ -111,12 +111,12 @@ except ValueError:
 #include <iostream> //Biblioteca que permite la entrada y salida de datos
 
 int c; //Variable que almacena el círculo en el que se encuentra
-float t; //Variable que almacena el tiempo en el que estuvo en el círculo
+float t; //Variable que almacena el tiempo en segundos en el que estuvo en el círculo
 int main (){
     //Se le pide al usuario que ingrese el numero del circulo en el que está 
     std::cout << "Escriba el círculo en el que se encuentra" << std::endl;
     std::cin >> c;
-    //Se le pide al usuario que ingrese el tiempo en el que estuvo en el círculo
+    //Se le pide al usuario que ingrese el tiempo en segundos en el que estuvo en el círculo
     std::cout << "Escriba el tiempo en el que estuvo en el círculo" << std::endl;
     std::cin >> t;
     //Se evalúa que el tiempo ingresado ssea coherente
@@ -281,4 +281,16 @@ g++ nombre.cpp -o nombre
 # Documentacion tecnica
 En el codigo podemos evidenciar comentarios que explican el funcionamiento de cada parte del codigo. 
 
-# 
+# Ejemplo de codigo
+Escriba el circulo en el que se encuentra: 3 <--(Digita el numero del circulo en el que te encuentras)
+Escriba el tiempo en segundos el que estuvo en el círculo: 45 <--(Digita el tiempo en segundo que estuviste en el circulo)
+Daño total recibido: 450.0 <--(El programa muestra el calculo de el daño que hace el circulo ingresado por el tiempo en segundos que estuviste en este)
+
+# Errores comunes
+ 1. Ingreso de valores negativos:
+    problema: Si el usuario ingresa un número negativo en el tiempo o círculo, el programa no calcula el daño correctamente.
+    solucion: El programa envia un mensaje en el que aclara que no se permiten usar valores negativos.
+    
+ 2. Ingreso de valores no numéricos:
+    problema: Si el usuario ingresa un valor que no sea un numero el programa fallara.
+    solucion: El codigo maneja una excepcion para que cuando se usen letras en lugar de numeros el programa envie un mensaje aclarando que no es un valor valido.
