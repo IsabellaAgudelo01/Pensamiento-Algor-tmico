@@ -54,8 +54,21 @@ Este programa puede ser utilizado como base para otros programas que necesiten d
   - Se imprime un mensaje indicando que no recibió daño
 
 # Justificación de la solución    
+Para resolver este problema, se le pide al ususario ingresar dos datos; el círculo en el que se encuentra y el tiempo que ha pasado en el círculo. Dependiendo de la situación del usuario se calculará la cantidad del daño recibido. Utilizamos el condicional if para cubrir cada uno de los casos posibles
+# _Estrategia_
+El programa sigue los siguientes pasos:
+ 1. le pide al usuario que ingrese el círculo en el que se encuentra
+ 2. le pide al usuario que ingrese el tiempo que se quedó en el círculo
+ 3. el programa hace una operación dependiendo del círculo que se encuentre por medio del condicional if
+     - círculo 0: no recibe daño
+     - círculo 1: t * 2
+     - círculo 2: t * 5
+     - círculo 3: t * 10
+     - círculo 4 o más: t * 25
+Concluimos que esta es la forma más efectiva de hacer el algorítmo puesto que cubre todas las posibilidades de daño que pueda recibir el usuario, así también evitando ampliar el código de manera innecesaria (por ejemplo hacer más bloques de la cuenta al no querer usar un condicional)
 
-
+# _Soluciones alternativas_
+Con lo que hemos visto en clase no podemos llegar aún a una solución alternativa
 
 
 
