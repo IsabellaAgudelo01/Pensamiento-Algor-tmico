@@ -78,7 +78,7 @@ Con lo que hemos visto en clase no podemos llegar aún a una solución alternati
 ![sin_titulo](https://github.com/user-attachments/assets/c0411292-2e0f-408e-b9df-afaaa21d73a3)
 
 # Código en Python
-´´cpp 
+```python
 print("Escriba el círculo en el que se encuentra")
 c = int(input())
 
