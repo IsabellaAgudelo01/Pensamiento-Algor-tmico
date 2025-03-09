@@ -5,11 +5,10 @@ Isabella Agudelo y Camilo Alfonso Rodríguez
 # CÁLCULO DE DAÑO POR ZONA EN APEX LEGENDS
 
 # Introducción
-Este proyecto tiene como objetivo documentar el entendimiento de los estudiantes en el uso de los distintos lenguajes de programación vistos en clase tales como C++ y Python y el uso de distintas herramientas como ambientes o compiladores necesarios para la ejecución de un código en los distintos sistemas operativos. Se propone una situación con el propósito de que los estudiantes construyan un código utilizando variables, condicionales, bucles y otros conceptos aprendidos en clase para hallar la solución al problema especificado. El informe busca documentar los códigos, explicar su funcionamiento y los errores posibles que se puedan dar al resolver el problema.  
+Este proyecto tieme como objetivo documentar el entendimiento de los estudiantes en el uso de los programas vistos en clase tales como C++ y Python. Se proponé una situación con el propósito de que los estudiantes construyan un código utilizando herramientas como variables, condicionales, bucles y otros conceptos aprendidos en clase. El informe busca documentar los códigos, explicar su funcionamiento y los erroers posibles que se puedan dar al resolver el problema. 
 
-# <h1>INFORME</h1> 
-
-<h2>Problema</h2>
+# _INFORME_
+# Problema
 En Apex Legends, el daño de la zona es un mecanismo clave que obliga a los jugadores a moverse
 hacia áreas seguras a medida que el círculo se cierra. El daño de la zona aumenta progresivamente
 dependiendo del círculo en el que te encuentres. Tu tarea es calcular el daño total que recibirá un
@@ -22,28 +21,25 @@ daño total recibido. El daño por segundo depende del círculo de la siguiente 
  3. Círculo 3: 10 de daño por segundo.
  4. Círculo 4 o mayor: 25 de daño por segundo.
 
-
- <h2>Requisitos Funcionales y No Funcionales </h2>
- 
- # <h3>Funcionales</h3>
+# Requisitos Funcionales y No Funcionales
+ # _Funcionales_
   1. Definir variables del círculo en el que se encuentra 
   2. Definir variables del tiempo que se quedó en el círculo
   3. Calcular el daño recibido dependiendo del circulo en el que se encuentre y el tiempo que duró en él
   4. Validar que el usuario haya ingresado números enteros mayores a 0 para el círculo
   5. Validar que el usuario haya ingresado números decimales mayores o iguales a 0
-     
-# <h3>No Funcionales</h3>
+ # _No funcionales_
   1. No permitir la entrada de otros carácteres fuera de los anteriores mencionados
   2. Claro y consciso
   3. Utilizar correctamente los lenguajes de C++ y Python con lo que se ha enseñado en clase
 
-# <h2>Casos de Uso Principales</h2>
+# Casos de Uso Principales
 Este programa puede ser utilizado como base para otros programas que necesiten de dos variables y calcular algún efecto recibido de acuerdo a los datos leídos
  1. Juegos con diferentes mecánicas que buscan calcular daño en base al tiempo o tiempo que permanezca en determinada zona
  2. Cálculo de exposición a sustancias peligrosas, un programa que dicte que tan dañino es estar en contacto con ciertos químicos por un determinado tiempo (sus variables podrían ser PH y tiempo)
  3. Consumo de energía, un programa que calcule el consumo de recursos y la contaminación que se está dando (sus variables podrían ser concentración de contaminantes y tiempo de su exposición)
 
-# <h2>Identificación de entradas, procesos y salidas esperadas</h2>
+# Identificación de entradas, procesos y salidas esperadas
  1. Entrada de datos:
    - número del círculo (c)
    - tiempo que pasó en el círculo (t)
@@ -57,9 +53,9 @@ Este programa puede ser utilizado como base para otros programas que necesiten d
   - Se imprime un mensaje indicando cuál fue el daño recibido
   - Se imprime un mensaje indicando que no recibió daño
 
-# <h2>Justificación de la solución</h2>    
+# Justificación de la solución    
 Para resolver este problema, se le pide al ususario ingresar dos datos; el círculo en el que se encuentra y el tiempo que ha pasado en el círculo. Dependiendo de la situación del usuario se calculará la cantidad del daño recibido. Utilizamos el condicional if para cubrir cada uno de los casos posibles
-# <h2>_Estrategia_</h2>
+# _Estrategia_
 El programa sigue los siguientes pasos:
  1. le pide al usuario que ingrese el círculo en el que se encuentra
  2. le pide al usuario que ingrese el tiempo que se quedó en el círculo
@@ -71,8 +67,53 @@ El programa sigue los siguientes pasos:
      - círculo 4 o más: t * 25
 Concluimos que esta es la forma más efectiva de hacer el algorítmo puesto que cubre todas las posibilidades de daño que pueda recibir el usuario, así también evitando ampliar el código de manera innecesaria (por ejemplo hacer más bloques de la cuenta al no querer usar un condicional)
 
-# <h2>_Soluciones alternativas_</h2>
+# _Soluciones alternativas_
 Con lo que hemos visto en clase no podemos llegar aún a una solución alternativa
+
+# Diagrama de Flujo
+
+
+
+
+![sin_titulo](https://github.com/user-attachments/assets/c0411292-2e0f-408e-b9df-afaaa21d73a3)
+
+# Código en Python
+
+print("Escriba el círculo en el que se encuentra")
+c = int(input())
+
+print("Escriba el tiempo en el que estuvo en el círculo")
+t = float(input())
+
+if t >= 0:
+    if c == 1:
+        print(f"Daño total recibido: {2 * t}")
+    elif c == 2:
+        print(f"Daño total recibido: {5 * t}")
+    elif c == 3:
+        print(f"Daño total recibido: {10 * t}")
+    elif c >= 4:
+        print(f"Daño total recibido: {25 * t}")
+    elif c == 0:
+        print("Usted no ha recibido daño")
+    else:
+        print("Por favor ingrese el círculo en el que se encuentra como un entero positivo")
+else:
+    print("Por favor ingrese el tiempo como un real positivo")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
