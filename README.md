@@ -282,9 +282,9 @@ g++ nombre.cpp -o nombre
 En el codigo podemos evidenciar comentarios que explican el funcionamiento de cada parte del codigo. 
 
 # Ejemplo de codigo
-Escriba el circulo en el que se encuentra: 3 <--(Digita el numero del circulo en el que te encuentras)
-Escriba el tiempo en segundos el que estuvo en el círculo: 45 <--(Digita el tiempo en segundo que estuviste en el circulo)
-Daño total recibido: 450.0 <--(El programa muestra el calculo de el daño que hace el circulo ingresado por el tiempo en segundos que estuviste en este)
+- Escriba el circulo en el que se encuentra: 3 <--(Digita el numero del circulo en el que te encuentras)
+- Escriba el tiempo en segundos el que estuvo en el círculo: 45 <--(Digita el tiempo en segundo que estuviste en el circulo)
+- Daño total recibido: 450.0 <--(El programa muestra el calculo de el daño que hace el circulo ingresado por el tiempo en segundos que estuviste en este)
 
 # Errores comunes
  1. Ingreso de valores negativos:
