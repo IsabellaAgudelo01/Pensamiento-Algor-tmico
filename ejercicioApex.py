@@ -1,4 +1,4 @@
-try:
+try: #Se usa para manejar excepciones, en este caso la de si se ingresan valores que no sean numeros
 #Se le pide al usuario que ingrese el numero del circulo en el que está
     c= int(input("Escriba el círculo en el que se encuentra: "))
 #Se le pide al usuario que ingrese el tiempo en el que estuvo en el círculo
