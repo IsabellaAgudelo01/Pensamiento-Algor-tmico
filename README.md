@@ -7,7 +7,8 @@ Isabella Agudelo y Camilo Alfonso Rodríguez
 # Introducción
 Este proyecto tiene como objetivo documentar el entendimiento de los estudiantes en el uso de los distintos lenguajes de programación vistos en clase tales como C++ y Python y el uso de distintas herramientas como ambientes o compiladores necesarios para la ejecución de un código en los distintos sistemas operativos. Se propone una situación con el propósito de que los estudiantes construyan un código utilizando variables, condicionales, bucles y otros conceptos aprendidos en clase para hallar la solución al problema especificado. El informe busca documentar los códigos, explicar su funcionamiento y los errores posibles que se puedan dar al resolver el problema.  
 
-# <h1>_INFORME_</h1> 
+# <h1>INFORME</h1> 
+
 # Problema
 En Apex Legends, el daño de la zona es un mecanismo clave que obliga a los jugadores a moverse
 hacia áreas seguras a medida que el círculo se cierra. El daño de la zona aumenta progresivamente
