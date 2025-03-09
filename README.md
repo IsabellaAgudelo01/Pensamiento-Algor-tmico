@@ -94,8 +94,7 @@ Con lo que hemos visto en clase no podemos llegar aún a una solución alternati
 <h1>DOCUMENTACIÓN</h1>
 
 # Python
-
-# <h2>Instalación y ejecución del programa (Windows)</h2>
+<h2>Instalación y ejecución del programa (Windows)</h2>
 1. Descarga python en su página oficial o en Microsoft Store, preferiblemente la versión más actual.
 2. Descarga Visual Studio Code.
 3. Ya con Visual Studio descargado, en el área de extensiones, se instalan las necesarias para python.
