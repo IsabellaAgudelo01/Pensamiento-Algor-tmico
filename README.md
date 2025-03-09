@@ -22,8 +22,16 @@ daño total recibido. El daño por segundo depende del círculo de la siguiente 
  4. Círculo 4 o mayor: 25 de daño por segundo.
 
 # Requisitos Funcionales y No Funcionales
-
-
+ # _Funcionales_
+  1. Definir variables del círculo en el que se encuentra 
+  2. Definir variables del tiempo que se quedó en el círculo
+  3. Calcular el daño recibido dependiendo del circulo en el que se encuentre y el tiempo que duró en él
+  4. Validar que el usuario haya ingresado números enteros mayores a 0 para el círculo
+  5. Validar que el usuario haya ingresado números decimales mayores o iguales a 0
+ # _No funcionales_
+  1. No permitir la entrada de otros carácteres fuera de los anteriores mencionados
+  2. Claro y consciso
+  3. Utilizar correctamente los lenguajes de C++ y Python con lo que se ha enseñado en clase
 
 
 
