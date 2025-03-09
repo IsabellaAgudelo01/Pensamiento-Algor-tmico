@@ -41,17 +41,17 @@ Este programa puede ser utilizado como base para otros programas que necesiten d
 
 # Identificación de entradas, procesos y salidas esperadas
  1. Entrada de datos:
-    número del círculo (c)
-    tiempo que pasó en el círculo (t)
+   - número del círculo (c)
+   - tiempo que pasó en el círculo (t)
  2. Procesamiento de datos:
-    Se define que si el cículo es 1 entonces se hará la operación t * 2
-    Se define que si el cículo es 2 entonces se hará la operación t * 5
-     Se define que si el círculo es 3 entonces se hará la operación t * 10
-    Se define que si el círculo es 4 o más entonces se hará la operación t * 25
-     Se define que si el círculo es 0 entonces se escribirá "usted no ha recibido daño"
+   - Se define que si el cículo es 1 entonces se hará la operación t * 2
+   -  Se define que si el cículo es 2 entonces se hará la operación t * 5
+   - Se define que si el círculo es 3 entonces se hará la operación t * 10
+   - Se define que si el círculo es 4 o más entonces se hará la operación t * 25
+   - Se define que si el círculo es 0 entonces se escribirá "usted no ha recibido daño"
 3. Salidas:
-   Se imprime un mensaje indicando cuál fue el daño recibido
-   Se imprime un mensaje indicando que no recibió daño
+  - Se imprime un mensaje indicando cuál fue el daño recibido
+  - Se imprime un mensaje indicando que no recibió daño
 
 # Justificación de la solución    
 
