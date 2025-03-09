@@ -24,13 +24,6 @@ daño total recibido. El daño por segundo depende del círculo de la siguiente 
 
 # <h2>Requisitos Funcionales y No Funcionales </h2>
 
-# <h3>_Funcionales_</h3>
-  1. Definir variables del círculo en el que se encuentra 
-  2. Definir variables del tiempo que se quedó en el círculo
-  3. Calcular el daño recibido dependiendo del circulo en el que se encuentre y el tiempo que duró en él
-  4. Validar que el usuario haya ingresado números enteros mayores a 0 para el círculo
-  5. Validar que el usuario haya ingresado números decimales mayores o iguales a 0
-     
 # <h3>_No Funcionales_</h3>
   1. No permitir la entrada de otros carácteres fuera de los anteriores mencionados
   2. Claro y consciso
