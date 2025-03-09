@@ -79,6 +79,7 @@ Con lo que hemos visto en clase no podemos llegar aún a una solución alternati
 
 # Código en Python
 
+
 print("Escriba el círculo en el que se encuentra")
 c = int(input())
 
@@ -100,8 +101,6 @@ if t >= 0:
         print("Por favor ingrese el círculo en el que se encuentra como un entero positivo")
 else:
     print("Por favor ingrese el tiempo como un real positivo")
-
-
 
 
 
