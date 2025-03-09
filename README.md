@@ -149,35 +149,6 @@ return 0;
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <h1>DOCUMENTACIÓN</h1>
 
 # PYTHON
@@ -238,16 +209,67 @@ python3 nombre.py
 ```
 
 # C++
-Para ejecutar el programa en C++ se siguen los siguientes pasos:
- 1. Descarga un compilador de C++
- 2. Asegúrate de que configurar el compilador a tu gusto, diferentes estílos, idioma, tipografía, etc
- 3. Descarga Visual Studio Code
- 4. Ya con Visual Studio descargado se instala la extensión de C++
- 5.  Crea una carpeta en tus archivos donde vayas a guardar tus códigos
- 6.  Abre la cartpeta y crea un archivo "Nombre.c++", asegúrate de tener el ".c++"
+
+# Instalación y ejecución del programa (Windows)
+1. Descarga un compilador de C++ como podría ser “MinGW”
+2. Durante la instalación selecciona los componentes de "mingw32-gcc-g++".
+2. Asegúrate de que configurar el compilador a tu gusto, diferentes estilos, idioma, tipografía, etc.
+3. Configura la variable de entorno, ve a "Panel de Control" > "Sistema" > "Configuración avanzada del sistema".
+4. En "Variables de entorno", edita la variable "Path" y agrega la ruta de MinGW (ejemplo: C:\MinGW\bin).
+5. Descarga Visual Studio Code.
+6. Ya con Visual Studio descargado, en el área de extensiones, se instalan las necesarias para C++.
+7.  Crea una carpeta en tus archivos donde vayas a guardar tus códigos.
+8. Abre VS Code, selecciona "Abrir carpeta" y elige la carpeta creada.
+9.  Crea un archivo "nombre.c++" y asegúrate de que tenga la extensión ".c++", también es válido usar “.cc” o “.cpp”.
+10. Escribe el código necesario
+11. Al momento de terminar el código, para ejecutarlo abre la terminal, en la parte superior de la pantalla ve al menú “View” o “ver” y luego selecciona “Terminal” o puedes usar el atajo “ctrl-ñ” en español o “ctrl-\” en ingles con lo que se abrirá directamente el apartado de terminal.
+12. En la terminal ejecuta el comando “g++ nombre.c++ -o programa.exe”.
+13. Si no aparece ningún error, se creará un archivo ejecutable llamado “programa.exe” en la carpeta creada anteriormente.
+14. En la terminal ejecuta el comando “.\programa.exe”, si el programa fue compilado de manera correcta, se mostrará la ejecución del código ingresado anteriormente.
+
+# Instalación y ejecución del programa (Linux)
+1.  Abre la terminal
+2.  Instala el compilador de C++ usando los comandos
+```
+sudo apt install g++ -y  # Debian/Ubuntu
+sudo dnf install gcc-c++  # Fedora
+sudo pacman -S gcc        # Arch Linux
+```
+3. Crea una carpeta donde vayas a guardar tus proyectos y luego crea un archivo “nombre.cpp” y asegúrate de que tenga la extensión “.cpp” usando el siguiente comando
+```
+mkdir ~/proyectos_cpp && cd ~/proyectos_cpp
+nano nombre.cpp
+```
+4. Escribe el código necesario 
+5. compila y ejecuta el programa con los siguientes comandos
+```
+g++ nombre.cpp -o nombre
+./nombre
+```
+
+# Instalación y ejecución del programa (MAC)
+1. Abre la terminal.
+2. Instala el compilador de C++ usando el comando.
+```
+xcode-select –install
+```
+3. Crea una carpeta donde vayas a guardar tus proyectos y luego crea un archivo “nombre.cpp” y asegúrate de que tenga la extensión “.cpp” usando el siguiente comando
+```
+mkdir ~/proyectos_cpp && cd ~/proyectos_cpp
+nano nombre.cpp
+```
+4. Compila y ejecuta el programa con los siguientes comandos
+```
+g++ nombre.cpp -o nombre
+./nombre
+```
 
 # Guía de uso
- 1. Abrir Visual Studio Code y crear dos archivos, cada uno con su respectiva terminación (".py" y ".c++")
- 2. Ejecutamos el código
- 3. Se le pedirá al usuario el círculo en el que se encuentra (solo se aceptarán números enteros mayores a 0)
- 4. Se le pedirá al usuario el tiempo que pasó en el círculo (solo se aceptarán floats)
+ 1. Al momento de que se ejecute el codigo se le pedirá al usuario que ingrese el numero del círculo en el que se encuentra (solo se aceptarán números enteros mayores a 0)
+ 2. Luego se le pedirá al usuario el tiempo que pasó en el círculo.
+ 3. Se ejecutara el programa y mostrara el daño recibido dependiendo del circulo y el tiempo que se haya pasado en este.
+
+# Documentacion tecnica
+En el codigo podemos evidenciar comentarios que explican el funcionamiento de cada parte del codigo. 
+
+# 
