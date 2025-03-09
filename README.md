@@ -180,19 +180,49 @@ return 0;
 
 <h1>DOCUMENTACIÓN</h1>
 
-# Python
+# PYTHON
+
 # Instalación y ejecución del programa (Windows)
 1. Descarga python en su página oficial o en Microsoft Store, preferiblemente la versión más actual.
 2. Descarga Visual Studio Code.
 3. Ya con Visual Studio descargado, en el área de extensiones, se instalan las necesarias para python.
 4. Crea una carpeta en tus archivos donde vayas a guardar tus códigos.
 5. Abre VS Code, selecciona "Abrir carpeta" y elige la carpeta creada.
-6. Crea un archivo "nombre.py" y asegúrate de tener la extensión ".py".
+6. Crea un archivo "nombre.py" y asegúrate de que tenga la extensión ".py".
 7. Escribe el código necesario.
 8. Al momento de terminar, debes ir a la parte superior de la pantalla en el apartado de “Run” o “Ejecutar” en español, paso seguido, se elige la opción de “Start Debugging” o “Iniciar depurado”, o de manera más simplificada puedes usar el atajo de la tecla “F5” que inicia la ejecución del programa.
 8. En la parte inferior de visual studio code se mostrará un apartado llamado “Terminal” en el cual se deben ingresar los datos solicitados para la ejecución del código. 
 
-# Instalación C++
+# Instalación y ejecución del programa (Linux)
+1. Abre la terminal 
+2. Verifica si python está instalado usando el comando
+	python3 –versión
+3. Si no está instalado usa los comandos
+	sudo apt install python3 -y  # Debian/Ubuntu
+sudo dnf install python3      # Fedora
+sudo pacman -S python         # Arch Linux
+3. Crea una carpeta donde vayas a guardar tus proyectos y luego crea un archivo “nombre.py” y asegúrate de que tenga la extensión “.py” usando los siguientes comandos
+mkdir ~/proyectos_python && cd ~/proyectos_python
+nano nombre.py
+4. Escribe el código necesario.
+5. Ejecuta el programa con el comando
+	python3 nombre.py
+
+# Instalación y ejecución del programa (MAC)
+1. Abre la terminal 
+2. Verifica si python está instalado usando el comando
+	python3 –versión
+3. Si no está instalado usa el comando
+	brew install python
+3. Crea una carpeta donde vayas a guardar tus proyectos y luego crea un archivo “nombre.py” y asegúrate de que tenga la extensión “.py” usando los siguientes comando
+mkdir ~/proyectos_python && cd ~/proyectos_python
+nano nombre.py
+4. Escribe el código necesario.
+5. Ejecuta el programa con el comando
+	python3 nombre.py
+
+
+# C++
 Para ejecutar el programa en C++ se siguen los siguientes pasos:
  1. Descarga un compilador de C++
  2. Asegúrate de que configurar el compilador a tu gusto, diferentes estílos, idioma, tipografía, etc
