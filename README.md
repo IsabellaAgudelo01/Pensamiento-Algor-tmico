@@ -80,21 +80,21 @@ Con lo que hemos visto en clase no podemos llegar aún a una solución alternati
 # Código en Python
 ```python
 try: #Se usa para manejar excepciones, en este caso la de si se ingresan valores que no sean numeros
-#Se le pide al usuario que ingrese el numero del circulo en el que está
+
     c= int(input("Escriba el círculo en el que se encuentra: "))
-#Se le pide al usuario que ingrese el tiempo en el que estuvo en el círculo
+
     t=float(input("Escriba el tiempo en segundos en el que estuvo en el círculo: "))
 #Se verifica el tipo de valor que se ingreso para el tiempo
     if t >= 0:
     #Se evalua en que circulo está el usuario y se calcula el daño recibido
         if c == 1:
-            print(f"Daño total recibido: {2 * t}") #Si el circulo es 1, se multiplica el tiempo por 2 y se imprime el valor recibido 
+            print(f"Daño total recibido: {2 * t}") 
         elif c == 2:
-            print(f"Daño total recibido: {5 * t}") #Si el circulo es 2, se multiplica el tiempo por 5 y se imprime el valor recibido 
+            print(f"Daño total recibido: {5 * t}") 
         elif c == 3:
-            print(f"Daño total recibido: {10 * t}") #Si el circulo es 3, se multiplica el tiempo por 10 y se imrprime el valor recibido 
+            print(f"Daño total recibido: {10 * t}") 
         elif c >= 4:
-            print(f"Daño total recibido: {25 * t}") #Si el circulo es 4 o mas, se multiplica el tiempo por 25 y se imprime el valor recibido
+            print(f"Daño total recibido: {25 * t}") 
         elif c == 0:
             print("Usted no ha recibido daño") #Para casos en los que el circulo sea igual a 0
         else:
@@ -110,8 +110,8 @@ except ValueError:
 ```cpp
 #include <iostream> //Biblioteca que permite la entrada y salida de datos
 
-int c; //Variable que almacena el círculo en el que se encuentra
-float t; //Variable que almacena el tiempo en segundos en el que estuvo en el círculo
+int c; 
+float t; 
 int main (){
     //Se le pide al usuario que ingrese el numero del circulo en el que está 
     std::cout << "Escriba el círculo en el que se encuentra" << std::endl;
@@ -123,20 +123,20 @@ int main (){
    if (t>=0){
        //Se evalua en que circulo está el usuario 
           if(c==1){
-         float a = 2*t; //Si el circulo es 1, se multiplica el tiempo por 2
-         std::cout << "Daño total recibido: " << a << std::endl; //Se imprime el daño total recibido
+         float a = 2*t; 
+         std::cout << "Daño total recibido: " << a << std::endl; 
      } else {
          if(c==2){
-             float b = 5*t; //Si el circulo es 2, se multiplica el tiempo por 5
-             std::cout << "Daño total recibido: " << b << std::endl; //Se imprime el daño total recibido
+             float b = 5*t; 
+             std::cout << "Daño total recibido: " << b << std::endl; 
          } else {
              if(c==3){
                  float d = 10*t;  //Si el circulo es 3, se multiplica el tiempo por 10
-                 std::cout << "Daño total recibido: " << d << std::endl; //Se imprime el daño total recibido
+                 std::cout << "Daño total recibido: " << d << std::endl; 
              } else {
                  if(c>=4){
-                     float e = 25*t;  //Si el circulo es 4 o mas, se multiplica el tiempo por 25
-                     std::cout << "Daño total recibido: " << e << std::endl; //Se imprime el daño total recibido
+                     float e = 25*t;  
+                     std::cout << "Daño total recibido: " << e << std::endl; 
                  } else{
                      if (c==0){
                          //Para casos en los que el circulo sea igual a 0
